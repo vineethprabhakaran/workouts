@@ -7,7 +7,7 @@ import sun.reflect.generics.tree.Tree;
  */
 public class HeightofTree {
 
-    TreeNode root;
+    HeightTreeNode root;
     public static void main(String a[]){
         HeightofTree ht = new HeightofTree();
         ht.insertNodeInBST(2);
@@ -18,7 +18,7 @@ public class HeightofTree {
         return height(root);
     }
 
-    private int height(TreeNode root) {
+    private int height(HeightTreeNode root) {
         if(root == null){
             return 0;
         }
@@ -29,10 +29,10 @@ public class HeightofTree {
     private void insertNodeInBST(int value) {
         insertNodeInBST(root,value);
     }
-    private  TreeNode insertNodeInBST(TreeNode node, int value) {
-       TreeNode newNode;
+    private  HeightTreeNode insertNodeInBST(HeightTreeNode node, int value) {
+        HeightTreeNode newNode;
         if(node == null){
-            newNode = new TreeNode(value);
+            newNode = new HeightTreeNode(value);
             root = newNode;
             return newNode;
        }
@@ -47,11 +47,11 @@ public class HeightofTree {
     }
 }
 
-class TreeNode{
+class HeightTreeNode{
     int data;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int data){
+    HeightTreeNode left;
+    HeightTreeNode right;
+    HeightTreeNode(int data){
         this.data = data;
     }
 }
