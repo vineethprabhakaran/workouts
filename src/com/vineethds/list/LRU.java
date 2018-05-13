@@ -13,6 +13,7 @@ public class LRU {
         pageMap = new HashMap<Integer, ListNode>();
     }
 
+    //access to page method
     public void accessToPage(int pageNumber){
         if(pageMap.get(pageNumber) != null){
             pageList.moveNodetoHead(pageMap.get(pageNumber));
