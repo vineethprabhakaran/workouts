@@ -74,7 +74,6 @@ public class TreeTopView {
         root.left.right = new TreeTopViewNode(5);
         root.right.left = new TreeTopViewNode(6);
         root.right.right = new TreeTopViewNode(7);
-
     }
 
 }
