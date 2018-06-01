@@ -5,8 +5,8 @@ package com.vineethds.sorting;
  * Build Max Heap
  * Sort the Array using Max Heap
  * reference: https://www.ideserve.co.in/learn/heap-sort
- *
  */
+
 public class HeapSort {
     public static void main(String a[]){
         HeapSort hs = new HeapSort();
