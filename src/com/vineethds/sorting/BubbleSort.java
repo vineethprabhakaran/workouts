@@ -3,7 +3,7 @@ package com.vineethds.sorting;
 /**
  * Created by Vineeth on 6/16/2018.
  *  Optimised version of Bubble sort
- *  Worst Case Running Time : O(n^2)
+ *  Worst Case Running Time : O(n^2).
  */
 public class BubbleSort {
 
