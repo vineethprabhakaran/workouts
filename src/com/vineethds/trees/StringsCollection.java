@@ -18,12 +18,9 @@ class StringsCollection{
             }
         }
         return count;
-
-
     }
 
     public static void main(String a[]){
         System.out.println(countHoles(630));
-
     }
 }
