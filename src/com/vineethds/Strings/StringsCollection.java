@@ -1,9 +1,16 @@
-package com.vineethds.trees;
+package com.vineethds.Strings;
 
 import java.util.ArrayList;
 import java.util.Collections;
-
+/*
+Author: Vineeth
+Problem: Count the Number of holes in GivenNumbner in a String
+input: 630
+output: 2
+Order: O(N)
+ */
 class StringsCollection{
+
     static int countHoles(int nums) {
         int num = nums;
         int count = 0;
