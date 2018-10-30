@@ -1,7 +1,5 @@
-package com.vineethds.Strings;
+package com.vineethds.strings;
 
-import java.util.ArrayList;
-import java.util.Collections;
 /*
 Author: Vineeth
 Problem: Count the Number of holes in GivenNumbner in a String
