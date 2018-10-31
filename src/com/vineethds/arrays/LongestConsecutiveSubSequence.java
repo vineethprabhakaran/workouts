@@ -11,6 +11,14 @@ Order : O(N)
  */
 public class LongestConsecutiveSubSequence {
 
+    /*
+        Algorithm Descritpion:
+        -This Algorithm works by adding all the elements in the hashset.
+        -Checks for the current element-1 is not present in the hashset and if current element-1 is present in the hashset then the current
+         element is part of another sequence.
+        -Check for elements in the hashset by incrementing the current Element and if the element is present increment the counter.
+
+     */
     public static void main(String[] args){
          int[] a = {1, 9, 3, 10, 4, 20, 2};
          findThelongestSubsequence(a);
