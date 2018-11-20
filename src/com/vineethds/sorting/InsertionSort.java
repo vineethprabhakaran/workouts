@@ -1,7 +1,12 @@
 package com.vineethds.sorting;
 
 public class InsertionSort {
-
+/*
+Author: Vineeth
+input: {9,8,7,5,3,1}
+output: 1 3 5 7 8 9
+Order: O(n^2)
+ */
     public static void main(String args[]){
         int a[] = {9,8,7,5,3,1};
         InsertionSort ins = new InsertionSort();
