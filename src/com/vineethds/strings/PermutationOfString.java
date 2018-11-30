@@ -41,10 +41,9 @@ public class PermutationOfString {
 
 
     public static void main (String arg[]){
-        String s = "abc";
+        String s = "abcde";
         HashSet<String> resultSet = getPermutationofString(s);
         printResults(resultSet);
-
     }
 
 }
