@@ -4,7 +4,7 @@ package com.vineethds.sorting;
 @Author: Vineeth
 input: {2,1,5,4,3}
 Output: {1,2,3,4,5}
-Order: O(n^2)
+Order: O(nlogn)
  */
 public class QuickSort {
 
