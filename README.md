@@ -28,7 +28,7 @@ Array is a linear data structure. Array is a collection of variables/items of si
 ### Disadvantages of arrays
 * **Limited Size**: The size of the array is limited, i.e. it is of fixed size. Once the length of the array is defined it cannot be changed.
 
-#### Representation in java
+#### Representation of array in java
 ```
 int[] array = new int[ARRAY_LENGTH];
 int[] array = {10,20,30,40};
