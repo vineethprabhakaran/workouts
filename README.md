@@ -38,7 +38,13 @@ int[] array = {10,20,30,40};
 Trees are non-linear data structures. A tree whose elements have two at most 2 children is called binary tree. The top most element of the tree is called **Root Node** or **Parent Node**.
 The node which is present left of the root node is called **Left Child** and the node which is present right of the root node is called **Right Child**.
 
+A node which doesnt have any children are called as **Leaf Node**.
+
 Each left node is a left sub tree of the root node and each right node is a right sub tree of the root node.
+
+The Tree conenctions are called as **Branches**.
+
+Trees are mainly used to store data in hierarchical form.
 
 
 <img src="https://cdn-images-1.medium.com/max/1400/1*UjSfPoMwCEkke1_iuNZ1EQ.jpeg?raw=true">
