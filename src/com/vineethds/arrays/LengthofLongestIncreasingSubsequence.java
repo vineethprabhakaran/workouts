@@ -29,7 +29,7 @@ public class LengthofLongestIncreasingSubsequence {
                     Lis[i] = Lis[j]+1;
                 }
             }
-            if(Lis[i] < maxlenght){
+            if(Lis[i] > maxlenght){
                 maxlenght = Lis[i];
             }
         }
