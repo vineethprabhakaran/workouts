@@ -23,9 +23,9 @@ public class CopyToServer {
 	private void copyFiles(String dir) throws JSchException, SftpException {
 		
 		 System.out.println(System.getProperty("os.name"));
-	        String hostname = "lxdenvd484";
-	        String username = "plaidapp";
-	        String password = "Pl@id2018";
+	        String hostname = "";//ServerName
+	        String username = "";
+	        String password = "";
 	        String copyFrom = "C:/Work_spaces/TestCopy";
 	        String copyTo = ""; //add server path
 	        System.out.println("Initiate sending file to Linux Server...");
