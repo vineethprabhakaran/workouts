@@ -27,7 +27,7 @@ public class CopyToServer {
 	        String username = "plaidapp";
 	        String password = "Pl@id2018";
 	        String copyFrom = "C:/Work_spaces/TestCopy";
-	        String copyTo = "/opt/plaid/jenkins"; 
+	        String copyTo = ""; //add server path
 	        System.out.println("Initiate sending file to Linux Server...");
 	        JSch jsch = new JSch();
 	        Session session = null;
