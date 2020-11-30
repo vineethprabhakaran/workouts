@@ -92,3 +92,9 @@ Sorting algorithms is classifed into two types
 | Merge  | nlog(n)  |nlog(n)  | nlog(n)  |O(n)  | &cross;  |&check;  | &cross;  |
 | Quick  | nlog(n)  |nlog(n)  | n<sup>2</sup>  |O(1)  | &cross;  |&cross;  | &check;  |
 | Heap  | nlog(n)  |nlog(n)  | nlog(n)  |O(1)  | &cross; |&cross;  | &check;  |
+
+## Amortized Time
+* Amortized time is the way to express the time complexity.
+* When an algorithm has a very bad time complexity once in a while, besides the time complexity that happens most of the time.
+* An example for this is the ArrayList which contains an array that can be extended.
+* When ArrayList hits the array capacity in it, then it create a new array with the doubled size of the old array and copy all the items in the old array to the new array. In ArrayList, two time complexities exist; one is O(1) and the other is O(n).
