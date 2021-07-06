@@ -3,16 +3,20 @@ package com.vineethds.others;
 public class StarPattern1 {
 /*
 
-Input n = 4
-Output:
-*
-**
-***
-****
-****
-***
-**
-*
+                        Input n = 6
+                        Output:
+                        *
+                        **
+                        ***
+                        ****
+                        *****
+                        ******
+                        ******
+                        *****
+                        ****
+                        ***
+                        **
+                        *
  */
     public static void createStarPattern(int n ){
         // print first n lines
@@ -41,7 +45,7 @@ Output:
     }
 
     public static void main(String[] args) {
-        int n  = 4;
+        int n  = 6;
         createStarPattern(n);
     }
 }
