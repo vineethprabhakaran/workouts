@@ -2,6 +2,9 @@ package com.vineethds.list;
 
 import java.util.HashMap;
 
+/*
+LRU Cache - Least Recently Used Cache
+ */
 public class LRU {
     private DoublyLinkedList pageList;
     private HashMap<Integer, ListNode> pageMap;
